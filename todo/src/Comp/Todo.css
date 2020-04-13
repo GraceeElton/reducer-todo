@@ -1,0 +1,80 @@
+.holder {
+  height: 900px;
+  width: 1450px;
+  background-image: url(../images/IMG_0508.jpg);
+}
+
+.App {
+  text-align: center;
+  padding: 0 36px;
+  margin: 0 auto;
+  height: 930px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+h2 {
+  text-align: center;
+  font-size: 40px;
+}
+
+.shopping-list {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  width: 100%;
+  margin: 0 auto;
+}
+.item {
+  background-color: pink;
+  width: 45%;
+  text-align: left;
+  margin: 4px 0;
+  padding-left: 8px;
+  cursor: pointer;
+  border: 2px solid #538bb8;
+}
+
+.item.done {
+  background-color: #538bb8;
+  text-decoration: line-through;
+}
+form {
+  width: 50%;
+  display: flex;
+  justify-content: flex-end;
+  margin-left: 155px;
+  padding: 16px;
+}
+form > input {
+  background-color: rgb(253, 237, 240);
+  border: 0;
+  padding: 6px 0;
+  font-size: 1rem;
+  width: 240px;
+  outline: 0;
+  color: black;
+  border: 2px solid#538bb8;
+  margin-right: 8px;
+}
+button {
+  background-color: #538bb8;
+  border: 2px solid #538bb8;
+  color: white;
+  font-size: 16px;
+  padding: 6px 14px;
+}
+input::placeholder {
+  color: #538bb8;
+  opacity: 1;
+}
+.clear-btn {
+  margin-top: 16px;
+  margin-left: 600px;
+}
+button:hover {
+  color: pink;
+}
