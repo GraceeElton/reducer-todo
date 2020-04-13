@@ -38,7 +38,7 @@ function App() {
     <div className="holder">
       <div className="App">
         <header>
-          <h1>My to do list using reducers!</h1>
+          <h2>My to do list using reducers!</h2>
         </header>
         <TodoForm addNew={addNew} />
         <TodoList state={state} handleComplete={handleComplete} />

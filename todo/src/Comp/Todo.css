@@ -1,6 +1,7 @@
 .holder {
-  height: 100%;
-  background-image: url(https://images.unsplash.com/photo-1531875456634-3f5418280d20?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60);
+  height: 900px;
+  width: 1450px;
+  background-image: url(../images/IMG_0508.jpg);
 }
 
 .App {
@@ -34,11 +35,11 @@ h2 {
   margin: 4px 0;
   padding-left: 8px;
   cursor: pointer;
-  border: 2px solid #8bc3f0;
+  border: 2px solid #538bb8;
 }
 
 .item.done {
-  background-color: #8bc3f0;
+  background-color: #538bb8;
   text-decoration: line-through;
 }
 form {
@@ -56,28 +57,24 @@ form > input {
   width: 240px;
   outline: 0;
   color: black;
-  border: 2px solid#8bc3f0;
+  border: 2px solid#538bb8;
   margin-right: 8px;
 }
-
 button {
-  background-color: #8bc3f0;
-  border: 2px solid #8bc3f0;
+  background-color: #538bb8;
+  border: 2px solid #538bb8;
   color: white;
   font-size: 16px;
   padding: 6px 14px;
 }
-
 input::placeholder {
-  color: #8bc3f0;
+  color: #538bb8;
   opacity: 1;
 }
-
 .clear-btn {
   margin-top: 16px;
   margin-left: 600px;
 }
-
 button:hover {
   color: pink;
 }
